@@ -6,17 +6,17 @@ import Modal from '../components/modal';
 
 const projects = [
   {
-    title: "C2 Montreal",
+    title: "Index",
     src: "c2montreal.png",
     color: "#000000"
   },
   {
-    title: "Office Studio",
+    title: "Office",
     src: "officestudio.png",
     color: "#8C8C8C"
   },
   {
-    title: "Locomotive",
+    title: "Locomo",
     src: "locomotive.png",
     color: "#EFE8D3"
   },
@@ -28,7 +28,6 @@ const projects = [
 ]
 
 export default function Home() {
-
   const [modal, setModal] = useState({active: false, index: 0})
 
   return (
